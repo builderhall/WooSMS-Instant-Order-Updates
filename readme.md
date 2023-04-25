@@ -1,22 +1,19 @@
 # WooSMS - Instant Order Updates
-WooSMS is a powerful WooCommerce plugin that enables store owners to stay connected with their customers by sending instant SMS notifications for real-time order updates. With WooSMS, you can easily automate your order management and provide your customers with seamless communication. The plugin is fully customizable and easy-to-use, and it supports multiple SMS gateways for greater flexibility. Whether you're running a small online store or a large eCommerce website, WooSMS is the ultimate tool to boost customer satisfaction and streamline your order management.
-
-
-## Requirement 
-* Requires at least: 3.8
-* Tested up to: 6.2
-* Stable tag: 2.25.0.1
-* WC requires at least: 2.1
-* WC tested up to: 7.4
-
-
-
 WooSMS is the ultimate WooCommerce SMS notification plugin that enables store owners to keep their customers updated with real-time order updates through instant SMS notifications.
 
-
-## Description
+![Promo](https://raw.githubusercontent.com/builderhall/WooSMS-Instant-Order-Updates/main/assets/images/smshall.jpg)
 
 WooSMS is the ultimate WooCommerce SMS notification plugin that enables store owners to keep their customers updated with real-time order updates through instant SMS notifications. With WooSMS, you can easily customize and configure automated SMS notifications to be sent to customers when their order status changes or when new orders are placed. Additionally, you can receive SMS notifications when new orders are placed or when customers leave notes on their orders. Stay connected with your customers, increase customer satisfaction, and improve your store's order management with WooSMS!
+
+---
+
+## Requirement
+* WordPress Requires at least: 3.8
+* WordPress Tested up to: 6.2
+* WooCommerce Requires at least: 2.1
+* WooCommerce Tested up to: 7.6
+* Stable tag: 2.0
+
 
 ## Features & Ability
  * Multipel SMS Provider Support:
@@ -56,7 +53,7 @@ WooSMS is the ultimate WooCommerce SMS notification plugin that enables store ow
 * Ability to notify store owner abount new order.
 * Ability to send International SMS.
 * Send Update to shiping number, if it is different from the billing phone number.
-* 100% compatible con [WPML](https://wpml.org/?aid=80296&affiliate_key=m66Ss5ps0xoS).
+* 100% compatible con [WPML](https://wpml.org/).
 * Support for custom order status.
 * Support for custom plugin order numbers [WooCommerce Sequential Order Numbers Pro](https://woocommerce.com/products/sequential-order-numbers-pro/).
 * Automatically inserts the international phone number code, if necessary, to the customer's phone number.
