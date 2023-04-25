@@ -1,18 +1,18 @@
 <?php global $woo_sms_settings, $woo_sms; ?>
 
 <div class="wrap woocommerce">
-	<h2>
+	<h1>
 		<?php _e( 'WooSMS - Instant Order Updates', 'woosms-instant-order-updates' ); ?>
-	</h2>
-	<h3><a href="<?php echo $woo_sms[ 'plugin_url' ]; ?>" title="Builder Hall Ltd"><?php echo $woo_sms[ 'plugin' ]; ?></a></h3>
+	</h1>
+	<hr>
+	<div class="cabecera"> <a href="<?php echo $woo_sms[ 'plugin_url' ]; ?>" title="<?php echo $woo_sms[ 'plugin' ]; ?>" target="_blank"><img src="<?php echo plugins_url( 'assets/images/smshall.jpg', DIRECCION_woo_sms ); ?>" class="imagen" alt="<?php echo $woo_sms[ 'plugin' ]; ?>" /></a> </div>
+
 	<p>
-		<?php _e( 'Add to WooCommerce the possibility to send <abbr title="Short Message Service" lang="en">SMS</abbr> update to your customer each time when the order status has change. <br>Notifies the owner, if desired, when a customer place any order. You can also send customer notes.
-		<br><br>Special thanks to <a href="https://artprojectgroup.es/" target="_blank">Art Project Group</a> for his original work on the WC - woosms SMS Notifications plugin.<br> Which we have built upon and added a new <abbr title="Short Message Service" lang="en">SMS</abbr> gateway (<a href="https://smshall.com/">SMS Hall</a>) to better serve our users.'); ?>
+		<?php _e( 'Add to WooCommerce the possibility to send <abbr title="Short Message Service" lang="en">SMS</abbr> update to your customer each time when the order status has change. <br>Notifies the owner, if desired, when a customer place any order. You can also send customer notes.'); ?>
 	</p>
 	<?php include( 'cuadro-informacion.php' ); ?>
 	<form method="post" action="options.php">
 		<?php settings_fields( 'woo_sms_settings_group' ); ?>
-		<div class="cabecera"> <a href="<?php echo $woo_sms[ 'plugin_url' ]; ?>" title="<?php echo $woo_sms[ 'plugin' ]; ?>" target="_blank"><img src="<?php echo plugins_url( 'assets/images/smshall.jpg', DIRECCION_woo_sms ); ?>" class="imagen" alt="<?php echo $woo_sms[ 'plugin' ]; ?>" /></a> </div>
 		<table class="form-table woosms-table">
 			<tr valign="top">
 				<th scope="row" class="titledesc">

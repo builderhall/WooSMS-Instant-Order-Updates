@@ -7,12 +7,12 @@ $woo_sms = [
 	'plugin' 		=> 'WooSMS - Instant Order Updates', 
 	'plugin_uri' 	=> 'woosms-instant-order-updates', 
 	'doc' 			=> 'https://smshall.com/woosms',
-	'soporte' 		=> 'https://builderhall.com/contact',
+	'support' 		=> 'https://builderhall.com/contact',
 	'plugin_url' 	=> 'https://builderhall.com/plugin', 
 	'ajustes' 		=> 'admin.php?page=woo_sms', 
 	'company_url'	=> 'https://builderhall.com',
 	'company_name'	=> 'Builder Hall Ltd',
-	'puntuacion' 	=> 'https://builderhall.com/' 
+	'puntuacion' 	=> 'https://builderhall.com/'
 ];
 
 //Load the language
@@ -55,7 +55,7 @@ function woo_sms_enlace_de_ajustes( $enlaces ) {
 		'<a href="' . $woo_sms[ 'ajustes' ] . '" title="' . __( 'Settings of ', 'woosms-instant-order-updates' ) . $woo_sms[ 'plugin' ] .'">' . __( 'Settings', 'woosms-instant-order-updates' ) . '</a>',
 
 		
-		#'<a href="' . $woo_sms[ 'soporte' ] . '" title="' . __( 'Support of ', 'woosms-instant-order-updates' ) . $woo_sms[ 'plugin' ] .'">' . __( 'Support', 'woosms-instant-order-updates' ) . '</a>' 
+		#'<a href="' . $woo_sms[ 'support' ] . '" title="' . __( 'Support of ', 'woosms-instant-order-updates' ) . $woo_sms[ 'plugin' ] .'">' . __( 'Support', 'woosms-instant-order-updates' ) . '</a>' 
 	];
 	foreach( $enlaces_de_ajustes as $enlace_de_ajustes )	{
 		array_unshift( $enlaces, $enlace_de_ajustes );

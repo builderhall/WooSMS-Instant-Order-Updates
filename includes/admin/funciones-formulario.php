@@ -24,7 +24,7 @@ if ( $woo_sms_settings ) {
 
 //List of SMS providers
 $listado_de_proveedores = [ 
-        "adlinks"           => "Adlinks Labs",
+/*        "adlinks"           => "Adlinks Labs",
         "altiria"           => "Altiria",
         "bulkgate"          => "BulkGate",
         "bulksms"           => "BulkSMS",
@@ -46,9 +46,9 @@ $listado_de_proveedores = [
         "sipdiscount"       => "SIP Discount",
         "smscx"             => "SMS.CX (SMS Connexion)",
         "smscountry"        => "SMS Country",
-        "smsdiscount"       => "SMS Discount",
+        "smsdiscount"       => "SMS Discount",*/
         "smsgateway_smshall" => "SMS Hall (Bulk SMS Single Solution)",
-        "smslane"           => "SMS Lane ( Transactional SMS only )",
+/*        "smslane"           => "SMS Lane ( Transactional SMS only )",
         "solutions_infini"  => "Solutions Infini",
         "springedge"        => "Spring Edge",
         "twilio"            => "Twilio",
@@ -56,7 +56,7 @@ $listado_de_proveedores = [
         "voipbuster"        => "VoipBuster",
         "voipbusterpro"     => "VoipBusterPro",
         "voipstunt"         => "VoipStunt",
-        "waapi"             => "WhatsApp Message By WA Api",
+        "waapi"             => "WhatsApp Message By WA Api",*/
 ];
 asort( $listado_de_proveedores, SORT_NATURAL | SORT_FLAG_CASE ); //Sort providers alphabetically
 

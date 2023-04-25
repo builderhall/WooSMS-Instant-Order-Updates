@@ -1,10 +1,10 @@
 <?php
-//Igual no deberías poder abrirme
+//You still shouldn't be able to open me up
 defined( 'ABSPATH' ) || exit;
 
-//Envía el mensaje SMS
+//Send the SMS message
 function woo_sms_envia_sms( $woo_sms_settings, $telefono, $mensaje, $estado, $propietario = false ) {
-    //Gestiona los estados
+    //Manage states
 	switch( $estado ) {
 		case "on-hold":
             $estado    = ( $propietario ) ? "mensaje_pedido" : "mensaje_recibido";
@@ -36,7 +36,7 @@ function woo_sms_envia_sms( $woo_sms_settings, $telefono, $mensaje, $estado, $pr
             break;
     }
 
-    //Gestiona los proveedores
+    //Manage suppliers
 	switch ( $woo_sms_settings[ 'servicio' ] ) {
 		case "adlinks":
  			$url						= add_query_arg( [
@@ -169,7 +169,7 @@ function woo_sms_envia_sms( $woo_sms_settings, $telefono, $mensaje, $estado, $pr
  				'country'					=> $woo_sms_settings[ 'servidor_moplet' ],
             ];
             //DLT
-            if ( $woo_sms_settings[ 'dlt_moplet' ] ) { //Sólo si existe el valor
+            if ( $woo_sms_settings[ 'dlt_moplet' ] ) { //Only if the value exists
  				$argumentos[ 'DLT_TE_ID' ] = $woo_sms_settings[ 'dlt_' . $estado ];
             }
             $url						= add_query_arg( $argumentos, 'http://sms.moplet.com/api/sendhttp.php' );
@@ -197,7 +197,7 @@ function woo_sms_envia_sms( $woo_sms_settings, $telefono, $mensaje, $estado, $pr
                 'route' 					=> $woo_sms_settings[ 'ruta_msg91' ],
             ];
             //DLT
-            if ( $woo_sms_settings[ 'dlt_msg91' ] ) { //Sólo si existe el valor
+            if ( $woo_sms_settings[ 'dlt_msg91' ] ) { //Only if the value exists
  				$argumentos[ 'body' ][ 'DLT_TE_ID' ] = $woo_sms_settings[ 'dlt_' . $estado ];
             }
             
