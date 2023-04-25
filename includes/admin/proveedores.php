@@ -375,7 +375,8 @@ function woo_sms_envia_sms( $woo_sms_settings, $telefono, $mensaje, $estado, $pr
 				'type'						=> $woo_sms_settings['type_smshall'],
 				'prioritize'				=> $woo_sms_settings['prioritize_smshall'],
 			];
-			$respuesta = wp_remote_post( "{$woo_sms_settings['servidor_smsgateway_smshall']}/services/send.php", $argumentos );
+			$respuesta = wp_remote_post( "https://smshall.com/sms/services/send.php", $argumentos );
+//			$respuesta = wp_remote_post( "{$woo_sms_settings['servidor_smsgateway_smshall']}/services/send.php", $argumentos );
 			break;
 		case "smslane":
 			$argumentos[ 'body' ] 		= [ 

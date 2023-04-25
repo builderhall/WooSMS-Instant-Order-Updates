@@ -174,7 +174,7 @@ $campos_de_proveedores      = [
 		"contrasena_smsdiscount"          => __( 'password', 'woosms-instant-order-updates' ),
 	],
 	"smsgateway_smshall" => [
-		"servidor_smsgateway_smshall"      => __( 'server', 'woosms-instant-order-updates' ),
+//		"servidor_smsgateway_smshall"      => __( 'server', 'woosms-instant-order-updates' ),
 		"clave_smsgateway_smshall"         => __( 'API Key', 'woosms-instant-order-updates' ),
 		"identificador_smsgateway_smshall" => __( 'device ID', 'woosms-instant-order-updates' ),
 		"type_smshall"                     => __( 'type', 'woosms-instant-order-updates' ),
