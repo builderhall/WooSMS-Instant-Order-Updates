@@ -12,7 +12,7 @@
 	<?php include( 'cuadro-informacion.php' ); ?>
 	<form method="post" action="options.php">
 		<?php settings_fields( 'woo_sms_settings_group' ); ?>
-		<div class="cabecera"> <a href="<?php echo $woo_sms[ 'plugin_url' ]; ?>" title="<?php echo $woo_sms[ 'plugin' ]; ?>" target="_blank"><img src="<?php echo plugins_url( 'assets/images/cabecera.jpg', DIRECCION_woo_sms ); ?>" class="imagen" alt="<?php echo $woo_sms[ 'plugin' ]; ?>" /></a> </div>
+		<div class="cabecera"> <a href="<?php echo $woo_sms[ 'plugin_url' ]; ?>" title="<?php echo $woo_sms[ 'plugin' ]; ?>" target="_blank"><img src="<?php echo plugins_url( 'assets/images/smshall.jpg', DIRECCION_woo_sms ); ?>" class="imagen" alt="<?php echo $woo_sms[ 'plugin' ]; ?>" /></a> </div>
 		<table class="form-table woosms-table">
 			<tr valign="top">
 				<th scope="row" class="titledesc">
