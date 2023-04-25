@@ -1,5 +1,5 @@
 # WooSMS - Instant Order Updates
-WooSMS is the ultimate WooCommerce SMS notification plugin that enables store owners to keep their customers updated with real-time order updates through instant SMS notifications.
+Update your customer order through instant SMS notifications.
 
 ![Promo](https://raw.githubusercontent.com/builderhall/WooSMS-Instant-Order-Updates/main/assets/images/smshall.jpg)
 
